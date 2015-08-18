@@ -23,8 +23,6 @@ public class MainActivity extends AppCompatActivity {
         defaultViewpager.setAdapter(defaultPagerAdapter);
         defaultIndicator.setViewPager(defaultViewpager);
 
-
-
         // CUSTOM
         ViewPager customViewpager = (ViewPager) findViewById(R.id.viewpager_custom);
         CircleIndicator customIndicator = (CircleIndicator) findViewById(R.id.indicator_custom);
